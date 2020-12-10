@@ -7,6 +7,13 @@
     "startup": "before",
     "boot": "auto",
     "host_network": true,
+    "arch": [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
+    ],
     "options": {
         "broker_host": "172.17.0.1",
         "broker_port": 1883,
